@@ -18,9 +18,6 @@
 
 const form = document.querySelector(".login-form");
 
-const emailValue = '';
-const passwordValue ='';
-
 const handleSubmit = (event) => {
     event.preventDefault();
     const { elements: { email, password }
